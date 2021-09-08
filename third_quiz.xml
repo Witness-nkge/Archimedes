@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edittext_border"
+    android:layout_margin="3dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/edittext_border"
+        android:text="@string/parameter"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/edittext_border"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/image8" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/edittext_border">
+
+        <RadioButton
+            android:id="@+id/rdButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/parameter_answer2"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rdButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/parameter_answer3"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rdButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/parameter_answer"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+</LinearLayout>

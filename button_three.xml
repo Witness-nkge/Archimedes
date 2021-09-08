@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp"
+    android:orientation="vertical"
+    android:background="@drawable/edittext_border">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/basicMath"
+            android:layout_width="124dp"
+            android:layout_height="110dp"
+            android:layout_margin="1dp"
+            android:text="@string/button3_component1"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/advancedMath"
+            android:layout_width="124dp"
+            android:layout_height="110dp"
+            android:layout_margin="1dp"
+            android:text="@string/component2"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/grade8"
+            android:layout_width="124dp"
+            android:layout_height="110dp"
+            android:layout_margin="1dp"
+            android:text="@string/component3"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/grade9"
+            android:layout_width="124dp"
+            android:layout_height="110dp"
+            android:layout_margin="1dp"
+            android:text="@string/component4"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/grade10"
+            android:layout_width="124dp"
+            android:layout_height="110dp"
+            android:layout_margin="1dp"
+            android:text="@string/component5"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/grade11"
+            android:layout_width="124dp"
+            android:layout_height="110dp"
+            android:layout_margin="1dp"
+            android:text="@string/component6"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/grade12"
+            android:layout_width="124dp"
+            android:layout_height="110dp"
+            android:layout_margin="1dp"
+            android:text="@string/component7"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/teacherGuide"
+            android:layout_width="124dp"
+            android:layout_height="110dp"
+            android:layout_margin="1dp"
+            android:text="@string/component8"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

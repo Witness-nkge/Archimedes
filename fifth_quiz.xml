@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edittext_border"
+    android:layout_margin="3dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:background="@drawable/edittext_border"
+        android:text="@string/solve_for_x"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_margin="5dp"
+        android:background="@drawable/edittext_border"
+        android:text="@string/solve"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textTv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/EditText3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:background="@drawable/edittext_border"
+        android:hint="@string/numbers"
+        android:textSize="20sp"
+        android:autofillHints=""/>
+    <Button
+        android:id="@+id/nextButton3"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:enabled="false"
+        android:text="@string/next_button" />
+
+</LinearLayout>
